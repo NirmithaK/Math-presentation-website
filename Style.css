@@ -2,3 +2,13 @@
   font-family: 'Dosis';
   src: url('Dosis-VariableFont_wght.ttf') format('ttf');
 }
+/* Load the custom font */
+@font-face {
+  font-family: 'YourFont';
+  src: url('fonts/YourFont.woff2') format('woff2');
+}
+
+/* Use the font on the page */
+body {
+  font-family: 'YourFont', sans-serif;
+}
